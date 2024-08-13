@@ -15,10 +15,6 @@ public class Disciplina {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     public String getCodigo() {
     	if(codigo == "NULL") {
     		return null;
